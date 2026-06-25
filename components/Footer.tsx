@@ -1,10 +1,11 @@
 
 import React from 'react';
+import CreatorCard from './CreatorCard';
 
 const Footer: React.FC = () => {
   return (
     <footer className="py-20 px-6 text-center bg-[#FDFBF7] relative">
-      <div className="max-w-xs mx-auto space-y-8">
+      <div className="max-w-xs mx-auto space-y-8 mb-10">
         <h4 className="font-script text-5xl text-[#C5A059] leading-tight">
           Ever & Flor
         </h4>
@@ -19,6 +20,8 @@ const Footer: React.FC = () => {
            <span className="h-px w-8 bg-[#D4AF37] self-center"></span>
         </div>
       </div>
+
+      <CreatorCard />
     </footer>
   );
 };
